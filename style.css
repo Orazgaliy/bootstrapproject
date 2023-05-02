@@ -1,0 +1,41 @@
+a.logo {
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+}
+.navigation a {
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+section {
+  background-color: #37517e;
+}
+.text h1 {
+  color: #fff;
+}
+.text p {
+  color: #fff;
+}
+.image {
+  animation: animation-img 2s infinite alternate ease-in-out;
+  transition: 0.4s;
+}
+.block img {
+  width: 45px;
+  filter: grayscale(100);
+  transition: 0.4s;
+}
+.block img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+@keyframes animation-img {
+  0% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
